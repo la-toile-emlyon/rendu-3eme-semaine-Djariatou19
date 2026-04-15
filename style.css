@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body img{
+    width: 200px;
+}
 header {
     background-image: url(assets/photographe/galerie/mariage.jpg);
     height: 100vh;
@@ -70,7 +72,6 @@ header {
 
 .HeroContainer h2 {
     font-size: 20px;
-    ;
 }
 
 .button {
@@ -103,33 +104,6 @@ header {
     color: black;
 
 }
-
-.approche {
-
-    width: 240px;
-}
-
-.section-padding {
-    padding: 30px;
-    background-color: #f4ebe9;
-}
-
-.container {
-    margin: auto;
-    width: 1080px;
-    
-}
-
-.flex-colonne{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-}
-.flex-row{
-
-}
-
 .promess-content {
     display: flex;
     flex-direction: row;
@@ -142,7 +116,7 @@ header {
     align-items: center;
     line-height: 1.5em;
     gap: 50px;
-    
+
 }
 
 .bouton {
@@ -167,17 +141,54 @@ p {
     margin-top: 0px;
     margin-bottom: 23px;
 }
-.card img{
-width: 200px;
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
-article {
-    width: 220px;
-    height: fit-content;
-    background: #fff;
-    padding: 15px;
-    border-radius: 16px;
+
+
+.row a {
+
+    background-color: #9C5239;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 6px 12px;
+    border: 20px;
+    width: fit-content;
+}
+
+
+
+.paddingSection{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border: #9C5239 solid 1px;
+   
+}
+.container{
+    max-width: 800px;
+    margin: auto;
     display: flex;
     flex-direction: column;
-    box-shadow: black;
-    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.column{
+    
+    display: flex;
+    flex-direction: column;
+}
+*{
+    padding: 4px;
 }
